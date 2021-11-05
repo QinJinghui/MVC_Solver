@@ -1,0 +1,7 @@
+python3 run_mvseq2tree.py --dataset_name mawps --use_share_decoder --enable_beam_search
+
+python3 run_mvgraph2tree.py --dataset_name mawps --use_share_decoder --enable_beam_search
+
+python3 run_mvlm2seq.py --dataset_name mawps --use_share_decoder --enable_beam_search
+
+python3 run_mvlm2tree.py --dataset_name mawps --use_share_decoder --enable_beam_search
